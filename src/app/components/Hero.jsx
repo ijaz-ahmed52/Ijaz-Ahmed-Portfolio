@@ -58,7 +58,7 @@ const Hero = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#38BDF8] text-black px-6 py-4 rounded-xl font-semibold hover:bg-[#0EA5E9] transition hover:scale-105"
+            className="bg-[#38BDF8] cursor-pointer text-black px-6 py-4 rounded-xl font-semibold hover:bg-[#0EA5E9] transition hover:scale-105"
           >
             View Projects
           </motion.button>
@@ -66,7 +66,7 @@ const Hero = () => {
           <a
         href="/Ijaz Ahmed frontend development resume.pdf" 
         download="Ijaz Ahmed frontend development resume.pdf"
-        className="border border-[#38BDF8] text-[#38BDF8] px-6 py-3 rounded-lg font-semibold hover:bg-[#38BDF8] hover:text-black transition"
+        className="border border-[#38BDF8] text-[#38BDF8] cursor-pointer px-6 py-3 rounded-lg font-semibold hover:bg-[#38BDF8] hover:text-black transition"
       >
         Download CV
       </a>

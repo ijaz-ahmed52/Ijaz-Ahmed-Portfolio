@@ -28,9 +28,9 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className="bg-[#38BDF8] text-black px-4 py-2 rounded-lg hover:bg-[#0EA5E9] transition hidden md:block">
+      <a href="/Ijaz Ahmed frontend development resume.pdf" download="Ijaz Ahmed frontend development resume.pdf" className="bg-[#38BDF8] text-black px-4 py-2 rounded-lg cursor-pointer hover:bg-[#0EA5E9] transition hidden md:block">
         Resume
-      </button>
+      </a >
 
       <button className="text-3xl md:hidden z-50" onClick={toggleMenu}>
         {menuOpen ? "✕" : "☰"}
@@ -53,9 +53,9 @@ const Header = () => {
               )
             })}
             <li onClick={() => setMenuOpen(false)}>
-              <button className="bg-[#38BDF8] text-black px-4 py-2 rounded-lg hover:bg-[#0EA5E9] transition ">
+              <a href="/Ijaz Ahmed frontend development resume.pdf" download="Ijaz Ahmed frontend development resume.pdf" className="bg-[#38BDF8] cursor-pointer text-black px-4 py-2 rounded-lg hover:bg-[#0EA5E9] transition ">
                 Resume
-              </button>
+              </a>
             </li>
           </ul>
         </div>
