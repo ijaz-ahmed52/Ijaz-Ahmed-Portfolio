@@ -42,14 +42,14 @@ const Header = () => {
             {links.map((link) => {
                 const id = link.toLowerCase();
               return(
-                <li
+                <Link
               href={`#${id}`}
               key={link}
                 className="hover:text-[#38BDF8] transition cursor-pointer text-lg"
                 onClick={() => setMenuOpen(false)}
               >
                 {link}
-              </li>
+              </Link>
               )
             })}
             <li onClick={() => setMenuOpen(false)}>
