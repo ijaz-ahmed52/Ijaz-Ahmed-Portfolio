@@ -39,8 +39,10 @@ const Header = () => {
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-[#1E293B] md:hidden shadow-lg">
           <ul className="flex flex-col items-center gap-6 py-6 text-gray-300">
-            {links.map((link) => (
-              <li
+            {links.map((link) => {
+                const id = link.toLowerCase();
+              return(
+                <li
               href={`#${id}`}
               key={link}
                 className="hover:text-[#38BDF8] transition cursor-pointer text-lg"
@@ -48,7 +50,8 @@ const Header = () => {
               >
                 {link}
               </li>
-            ))}
+              )
+            })}
             <li onClick={() => setMenuOpen(false)}>
               <button className="bg-[#38BDF8] text-black px-4 py-2 rounded-lg hover:bg-[#0EA5E9] transition ">
                 Resume

@@ -6,7 +6,7 @@ const Contact = () => {
             <p className=" text-gray-300 text-center max-w-2xl mx-auto mb-12">Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities and ideas.</p>
            <div className="flex flex-col md:flex-row gap-10 items-center">
              <div className="flex-1 space-y-6   rounded-2xl p-3">
-                <div className="bg-[#1E293B] p-5 rounded-xl shadow-md hover:shadow-xl transition ">
+                <div className="bg-[#1E293B] p-5 rounded-xl shadow-md hover:shadow-xl transition">
                     <h3 className="text-[#38BDF8] font-semibold text-lg">Email :</h3>
                     <p className="text-gray-300">ijazahmed.builds@gmail.com</p>
                 </div>
