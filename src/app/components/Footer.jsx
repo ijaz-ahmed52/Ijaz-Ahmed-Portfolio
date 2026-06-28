@@ -5,9 +5,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between w-full items-center gap-6">
         <div className="flex flex-col gap-4">
           <h3 className="text-xl font-bold">Ijaz Ahmed</h3>
-          <p className="text-gray-400">MERN Stack Developer</p>
+          <p className="text-gray-400">Frontend Developer</p>
           <p className="text-gray-500 text-sm">
-            Building modern web applications with React & Node.js
+            Building modern web applications with React & Next.js
           </p>
         </div>
         <div className="flex gap-7">
@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/ijaz-ahmed-web989/" target="_blank">
             <FaLinkedin className="text-2xl text-gray-300 hover:text-[#38BDF8] cursor-pointer transition"/>
           </a>
-          <a href="mailto:ijaz.builds@gmail.com">
+          <a href="mailto:ijazahmed.builds@gmail.com">
             <FaEnvelope className="text-2xl text-gray-300 hover:text-[#38BDF8] cursor-pointer transition"/>
           </a>
         </div>

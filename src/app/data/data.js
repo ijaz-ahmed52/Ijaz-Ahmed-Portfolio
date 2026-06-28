@@ -65,7 +65,7 @@ export const projects = [
       "Modern UI",
       "Optimized Performance",
     ],
-    live: "https://ijaz-portfolio-three.vercel.app/",
-    github: "https://github.com/ijaz-ahmed52", // Replace with project repo
+    live: "https://ijaz-ahmed-portfolio.vercel.app/",
+    github: "https://github.com/ijaz-ahmed52/Ijaz-Ahmed-Portfolio", // Replace with project repo
   },
 ];
